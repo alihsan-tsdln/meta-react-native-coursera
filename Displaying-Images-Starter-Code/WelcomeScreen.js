@@ -16,7 +16,10 @@ export default function WelcomeScreen() {
           margin : 20,
           borderRadius : 20,
          }}
-         source={require("./img/logo.png")} />
+         source={require("./img/logo.png")}
+         accessible={true}
+         accessibilityLabel={"Little Lemon App Logo"}
+          />
         <Text style={styles.headerText}>Little Lemon</Text>
       </View>
       <Text style={styles.regularText}>
