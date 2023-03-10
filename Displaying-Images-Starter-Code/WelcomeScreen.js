@@ -14,6 +14,7 @@ export default function WelcomeScreen() {
           width: 100,
           height: 100,
           margin : 20,
+          borderRadius : 20,
          }}
          source={require("./img/logo.png")} />
         <Text style={styles.headerText}>Little Lemon</Text>
